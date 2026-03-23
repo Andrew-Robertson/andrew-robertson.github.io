@@ -58,6 +58,8 @@ projects: []
 slides: ""
 ---
 
+> **New development:** This system will be observed with JWST in Cycle 5 ([Program 12088](https://www.stsci.edu/jwst/science-execution/program-information?id=12088)). The multi-wavelength imaging will help disentangle emission from the lensed source and any putative satellite galaxy, providing a decisive test of the interpretation presented here.
+
 Strong gravitational lensing provides one of the most powerful ways to detect small clumps of dark matter in distant galaxies. By studying how these substructures perturb the shapes of lensed images, astronomers can measure the mass and density of otherwise invisible objects.
 
 Previous analyses of the lens system **SDSS J0946+1006** suggested the presence of a dark matter subhalo with an unusually high central density. Such an object would be difficult to reconcile with predictions from the standard cold dark matter model and attracted significant attention.

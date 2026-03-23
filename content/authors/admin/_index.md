@@ -56,7 +56,7 @@ education:
     institution: Durham University, Institute for Computational Cosmology
     icon: ""
     date_start: 2013-10-01
-    date_end: 2019-06-30
+    date_end: 2018-01-11
     summary: |
       Thesis on _The Cosmological Implications of Self-Interacting Dark Matter_. Supervised by Richard Massey and Vincent Eke.
     button:

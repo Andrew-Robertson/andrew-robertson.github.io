@@ -3,19 +3,25 @@ title: 'Projects'
 date: 2024-05-19
 type: landing
 
+cascade:
+  share: false
+  
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '0rem'
 
 # Page sections
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Primary Research Areas
+      text: These pages give an overview of some of the main things I currently work on.
       filters:
         folders:
           - research
+        featured_only: true
+      sort_by: weight
+      sort_ascending: true
     design:
       view: article-grid
       fill_image: false
@@ -24,3 +30,4 @@ sections:
       show_read_time: false
       show_read_more: false
 ---
+
