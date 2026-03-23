@@ -22,6 +22,9 @@ main:
   - name: Research
     url: research/
     weight: 12
+  - name: Outreach
+    url: /outreach/
+    weight: 60
   #- name: Courses
   #  url: courses/
   #  weight: 40
