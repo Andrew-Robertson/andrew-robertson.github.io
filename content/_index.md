@@ -9,7 +9,7 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -27,7 +27,7 @@ sections:
       css_class: hbx-bg-gradient
       # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: collection
     id: research
@@ -36,10 +36,15 @@ sections:
       filters:
         folders:
           - research
+      sort_by: weight
+      sort_ascending: true
     design:
       view: article-grid
       fill_image: false
       columns: 3
+      show_date: false
+      show_read_time: false
+      show_read_more: false
   - block: collection
     id: talks
     content:
