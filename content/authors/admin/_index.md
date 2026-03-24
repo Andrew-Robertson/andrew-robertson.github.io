@@ -80,7 +80,7 @@ work:
     date_start: 2024-07-26
     date_end: ''
     summary: |2-
-      Leading the generation of mock galaxy catalogues and contributing to pixel-level simulations for the Roman Space Telescope Galaxy Redshift Survey Project Infrastructure Team. I also develop methods to interpret observations of strong gravitational lenses, including simulations connected to a successful JWST Cycle 3 programme targeting the Bullet Cluster. In addition, I have secured telescope time and led spectroscopic observations of a strong lens system with multiple background sources.
+      Working within the Roman Space Telescope Galaxy Redshift Survey Project Infrastructure Team I develop and generate mock galaxy catalogues, based on improved galaxy formation models. These mocks are used to simulate realistic end-to-end datasets for the mission, which in turn are used to test survey strategies and analysis methods. In parallel, I develop and supervise projects on strong gravitational lensing, including simulations connected to a JWST programme targeting the Bullet Cluster. I also led spectroscopic observations of a strong lens system with multiple background sources, using the Magellan telescopes.
   - position: JPL Postdoc
     company_name: NASA Jet Propulsion Laboratory
     company_url: 'https://www.jpl.nasa.gov'
@@ -88,7 +88,7 @@ work:
     date_start: 2021-11-21
     date_end: 2024-07-15
     summary: |
-      Conducted research on cosmology and dark matter using large-scale structure and gravitational lensing. I combined weak lensing and redshift-space distortions around galaxy clusters to test gravity, implemented data vector and covariance calculations for JPL's joint large-scale structure analysis pipeline, and developed software for Pseudaria, a tool designed to detect and correct unknown systematics in survey data. Additional work included modelling dust effects in simulated galaxies and exploring constraints on dark matter from galaxy cluster shapes measured with the SuperBIT telescope.
+      Conducted research on cosmology and dark matter using large-scale structure and gravitational lensing, with a focus on how robustly physical information can be extracted from observational data. I developed models of galaxy infall kinematics to interpret cluster–galaxy correlations in redshift space, and showed how modelling assumptions on small scales can bias cosmological inference. I also investigated the ability of weak lensing to constrain dark matter physics, demonstrating that cluster shapes inferred from lensing are largely insensitive to self-interacting dark matter because weak lensing measures the projected mass distribution on large scales, where differences between dark matter models are washed out. In parallel, I contributed to JPL’s large-scale structure analysis pipeline, including data vector and covariance calculations, and developed software for Pseudaria, a framework designed to detect and mitigate unknown systematics in survey data.
   - position: Postdoctoral Research Associate
     company_name: Institute for Computational Cosmology
     company_url: 'https://www.icc.dur.ac.uk'
@@ -189,4 +189,8 @@ skills:
 #      Recognized for contributions to scaling laws in deep learning.
 ---
 
-I am an astrophysicist working at the intersection of cosmology, galaxy formation, and gravitational lensing. My research combines large simulations, semi-analytic modelling, and survey data to understand the dark sector and the growth of structure across cosmic time. I develop end-to-end mock pipelines for Stage-IV missions such as NASA’s Roman Space Telescope, lead work on strong-lensing and kinematic-lensing methods for probing dark matter, and contribute to large-scale structure analyses for the Roman Galaxy Redshift Survey. I place a strong emphasis on realism and validation in modelling — ensuring that theoretical predictions, simulations, and lensing analyses can be fairly compared with data. My work is highly collaborative, spanning cosmologists, observers, simulation experts, and software developers across multiple institutions.
+I am an astrophysicist interested in how the Universe forms and evolves, with a focus on dark matter and dark energy. Dark matter is an invisible form of matter that shapes the formation of galaxies through its gravity, while dark energy is the unknown component driving the accelerated expansion of the Universe.
+
+My current work is part of NASA’s Roman Space Telescope project. I develop and improve models of galaxy formation, and use them to create large, realistic “synthetic skies” by simulating the formation of galaxies on supercomputers. These mock catalogues are used to test survey strategies for Roman's Galaxy Redshift Survey and to develop and validate analysis methods before real data arrives.
+
+More broadly, I am interested in the physics of the dark sector and how structure grows in the Universe over cosmic time. I have worked extensively on gravitational lensing—using the bending of light to probe dark matter—and continue to supervise and contribute to projects in this area, as well as on self-interacting dark matter. A central theme of my work is making sure that the conclusions we draw about the Universe are genuinely robust, by testing how our assumptions, models, and analysis methods can shape—or sometimes mislead—our interpretation of the data.
