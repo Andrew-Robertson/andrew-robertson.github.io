@@ -1,0 +1,13 @@
+@media (min-width: 1024px) {
+  .single-page-shell {
+    max-width: 90rem;
+  }
+
+  .single-page-main {
+    max-width: 84rem;
+  }
+
+  .publication-page-content {
+    max-width: 78rem;
+  }
+}
