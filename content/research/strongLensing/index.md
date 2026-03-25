@@ -13,78 +13,57 @@ weight: 20
 
 ## Overview
 
-Strong gravitational lensing occurs when a massive object—such as a galaxy or cluster—bends light from a more distant source, producing multiple images, arcs, or even complete Einstein rings. Because gravity depends only on mass (not whether it is luminous or dark), lensing provides a direct way to map the distribution of matter in the Universe.
+Strong gravitational lensing occurs when a massive object—such as a galaxy or cluster—bends light from a more distant source, producing multiple images, arcs, or even complete *Einstein rings*. Because gravity depends only on mass (not whether it is luminous or dark), lensing provides a direct way to map the distribution of dark matter.
 
-In particular, strong lensing is one of the most sensitive probes of small-scale structure in dark matter haloes. Tiny concentrations of mass, including dark matter subhaloes, can leave detectable signatures in the detailed shapes of lensed images.
+It is also one of the most sensitive probes of small-scale structure: even low-mass subhaloes can leave detectable imprints in the detailed morphology of lensed images.
 
----
-
-## Why this is useful
-
-Strong lensing offers a rare combination of advantages:
-
-- It is sensitive to **all forms of matter**, not just stars or gas  
-- It can probe **very small scales** (down to individual subhaloes)  
-- It provides **geometric constraints** that are often highly precise  
-
-This makes it a powerful tool for testing models of dark matter, including possible deviations from the standard cold dark matter picture.
+My work focuses on using strong lensing as a test of dark matter physics, while ensuring that the inferences drawn are robust to modelling assumptions and observational limitations.
 
 ---
 
-## Challenges
+## Galaxy-scale strong lensing
 
-Interpreting strong lensing data is not straightforward. The signals we are interested in are often subtle, and several effects can mimic one another:
+Galaxy-scale lenses provide one of the cleanest ways to detect dark matter substructure. In these systems, small perturbations to lensed arcs or Einstein rings can reveal the presence of otherwise invisible subhaloes.
 
-- Complex structure in the background source  
-- Light from faint satellite galaxies  
-- Assumptions in the lens model  
-- Instrumental resolution and noise  
+A handful of low-mass substurctures have now been detected using both optical imaging and VLBI (radio) observations. These measurements are often interpreted as constraints on the abundance and internal structure of dark matter subhaloes, and therefore on the nature of dark matter itself.
 
-As a result, careful modelling and validation are essential to avoid drawing incorrect conclusions about the underlying mass distribution.
+However, the interpretation is not always straightforward. A key focus of my work is testing how robust these inferences are using realistic mock datasets. By generating synthetic observations and analysing them with the same tools used on real data, we can assess when apparent detections genuinely require new dark matter physics.
 
----
+### Example: SDSS J0946+1006
 
-## Approach
+The lens system **SDSS J0946+1006** has been widely discussed as evidence for a very dense dark matter subhalo.
 
-My work focuses on making lensing inferences as robust as possible by connecting models directly to realistic data.
+In [recent work](/publications/jackpotLuminousPerturber/), we showed that the data can also be explained if the perturber hosts a faint galaxy. When this is included in the modelling, there is no need to invoke an unusually compact dark matter structure.
 
-**Lens modelling**  
-I use and develop techniques to infer the mass distribution of lensing systems from imaging data, including the effects of small-scale perturbations.
-
-**Mock datasets**  
-I generate simulated lensing observations with known inputs. These provide a controlled way to test how well different methods recover the true mass distribution.
-
-**Systematics and validation**  
-A key focus is understanding how modelling assumptions affect the results. For example, unmodelled light from a faint galaxy can be misinterpreted as a dense dark matter clump.
-
-**Connecting to dark matter physics**  
-By comparing observations with predictions from simulations, lensing measurements can be used to test models of dark matter on scales that are otherwise difficult to access.
+This system illustrates how sensitive lensing inferences can be to seemingly small modelling choices, and why careful validation is essential.
 
 ---
 
-## Example: SDSS J0946+1006
+## Cluster-scale strong lensing
 
-The lens system **SDSS J0946+1006** has been widely studied as a potential detection of a very dense dark matter subhalo.
 
-In [recent work](/publications/jackpotLuminousPerturber/), we revisited this system and explored the possibility that the perturber hosts a faint satellite galaxy. When this is included in the modelling, the data can be explained without requiring an unusually compact dark matter distribution.
+<figure style="float:right; width:300px; margin:0 0 10px 20px;">
+  <img src="/images/Abell370.jpg" alt="Abell 370 strong lensing" style="width:100%;">
+  <figcaption style="font-size:0.8em; color:#666;">
+    Strong lensing galaxy cluster Abell 370. Image credit: NASA, ESA, and J. Lotz and the HFF Team (STScI)
+  </figcaption>
+</figure>
 
-This illustrates a broader point: the interpretation of lensing signals depends sensitively on how all components of the system are modelled.
+On larger scales, galaxy clusters produce complex networks of arcs and multiple images, allowing detailed reconstruction of their mass distributions.
 
----
+Several studies have suggested potential discrepancies between observed cluster substructure and predictions from CDM simulations. These include claims of an excess of massive subhaloes or differences in their spatial distribution.
 
-## Looking ahead
+While these results are intriguing, their interpretation remains uncertain. In particular, comparisons between simulations and observations can be affected by selection effects, projection, and modelling assumptions. In [this work](https://arxiv.org/abs/2101.12067), I argued that some reported tensions may be less significant than initially claimed.
 
-The next generation of observations will significantly expand the reach of strong lensing:
+Even so, cluster-scale lensing remains a promising avenue for testing dark matter models, particularly as both simulations and observational datasets improve.
 
-- **JWST** provides high-resolution imaging that can reveal faint structures and separate overlapping components  
-- **Roman Space Telescope** will discover large samples of strong lenses, enabling population-level studies  
-- Improved modelling techniques will allow more robust interpretation of increasingly complex data  
 
-Together, these advances will help turn strong lensing into a precision tool for studying dark matter and galaxy structure.
+### Merging clusters
 
----
+Merging clusters provide a complementary test of dark matter physics.
 
-## Related work
+In these systems, the different components—stars (galaxies), gas, and dark matter—can become spatially separated during the merger. By comparing their relative distributions, it is possible to constrain properties such as the self-interaction cross-section of dark matter.
 
-- [Self-interacting dark matter](../SIDM/)
-- [Roman Galaxy Redshift Survey](../roman-GRS/)
+The **Bullet Cluster** is the most famous example, and has provided some of the strongest constraints on self-interacting dark matter.
+
+I am currently involved in efforts to interpret new observations of merging clusters, including a recently-completed JWST programmes [targeting the Bullet Cluster](https://www.stsci.edu/jwst-program-info/download/jwst/pdf/4598/) and a recently-accepted JWST proposal to [observe the Planck Bullet](https://www.stsci.edu/jwst-program-info/download/jwst/pdf/9594/). This work combines simulations and lensing analyses to understand how reliably we can extract constraints on dark matter physics from these systems.
