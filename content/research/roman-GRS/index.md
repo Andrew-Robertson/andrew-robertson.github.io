@@ -25,9 +25,9 @@ Roman achieves this using **slitless spectroscopy** with a [grism](https://en.wi
 
 ## Why grism spectroscopy is powerful—and difficult
 
-<figure style="float:right; width:300px; margin:0 0 10px 20px;">
-  <img src="/images/RomanGrism.png" alt="Roman GRS data" style="width:100%;">
-  <figcaption style="font-size:0.8em; color:#666;">
+<figure class="wrapped-figure wrapped-figure-right">
+  <img src="/images/RomanGrism.png" alt="Roman GRS data">
+  <figcaption>
     Simulated Roman data, with a <em>direct image</em> (top) and <em>grism image</em> (bottom). Image credit: IPAC/STScI/Goddard
   </figcaption>
 </figure>
