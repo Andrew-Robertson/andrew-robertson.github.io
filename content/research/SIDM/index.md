@@ -14,73 +14,40 @@ weight: 30
 
 ## Overview
 
-Dark matter makes up most of the matter in the Universe, but its fundamental nature is still unknown. The standard model — cold dark matter (CDM) — successfully explains the large-scale structure of the Universe, but is harder to test on the much smaller scales of galaxies and their substructure.
+Dark matter makes up most of the matter in the Universe, but its fundamental nature remains unknown. The standard model—cold dark matter (CDM)—successfully explains structure on large scales. In simulations that include only dark matter, it predicts that haloes develop steep, centrally concentrated *cusps*.
 
-Self-interacting dark matter (SIDM) is a simple extension in which dark matter particles can scatter off one another. These interactions can subtly change how dark matter is distributed inside galaxies, for example by producing lower-density centres or altering the shapes of haloes. For a broader overview of these ideas, see this [review paper I co-authored](https://arxiv.org/abs/2207.10638), or this [earlier review](https://arxiv.org/abs/1705.02358), which provides an excellent introduction.
+Early observations of dwarf and low-surface-brightness galaxies instead appeared to favour constant-density *cores*, in tension with these predictions. This “[core–cusp problem](https://en.wikipedia.org/wiki/Cuspy_halo_problem)” was one of the original motivations for considering alternatives such as self-interacting dark matter (SIDM), in which dark matter particles scatter off one another and naturally redistribute energy to produce lower-density centres.
 
-The challenge is to connect these small theoretical differences to real observations.
+Subsequent work complicated this picture. On the theoretical side, it became clear that baryonic processes—particularly energy injection from supernovae—can also transform cusps into cores within CDM. On the observational side, the situation evolved from a simple “cores vs cusps” dichotomy to a broader diversity of inner density profiles across galaxies, even at fixed mass.
 
----
+At the same time, constraints from systems such as the [Bullet Cluster](https://en.wikipedia.org/wiki/Bullet_Cluster) showed that large, velocity-independent self-interaction cross-sections are ruled out. While modest cross-sections remain viable—and can produce cores in dwarf galaxies—much larger cross-sections lead to more dramatic evolution. In this regime, heat conduction can drive a process known as *core collapse*, producing dense central regions. This naturally generates a wide diversity of inner density profiles, but the cross-sections required are incompatible with constraints from galaxy clusters.
 
-## Why this is difficult
+This has led to increasing interest in velocity-dependent SIDM models, which are well motivated in particle physics. In these models, interactions are strong in low-velocity systems (like dwarf galaxies), but suppressed in high-velocity environments (like galaxy clusters), allowing them to evade existing constraints while retaining observable signatures.
 
-On the scales where SIDM effects are most interesting (kiloparsecs and below), a number of things become entangled:
-
-- Dark matter physics  
-- The effects of stars and gas  
-- Observational limitations and noise  
-- Assumptions made in data analysis  
-
-As a result, it is not enough to compare simple theoretical predictions to data — the full process from model to observation needs to be understood.
+For a broader overview of these ideas, see this [review paper I co-authored](https://arxiv.org/abs/2207.10638), or this [earlier review](https://arxiv.org/abs/1705.02358), which provides an excellent introduction.
 
 ---
 
-## Approach
 
-My work focuses on building connections between theory and observation in a way that is as realistic as possible.
+## Simulating an SIDM Universe
 
-**Simulations and models**  
-I use a combination of simulations and semi-analytic models to explore how different dark matter scenarios affect galaxy and subhalo structure.
+During my PhD, I developed and implemented methods to include dark matter self-interactions in large-scale simulations, and ran some of the first cosmological hydrodynamical simulations with SIDM—variants of the [EAGLE](https://icc.dur.ac.uk/Eagle/) and [BAHAMAS](https://www.astro.ljmu.ac.uk/~igm/BAHAMAS/) simulation programmes. These allowed us to study how self-interactions affect galaxies and clusters in realistic environments, where dark matter, gas, and stars all evolve together. While these simulations were not released as a public dataset, I am very happy to share them—please get in touch if they would be useful.
 
-**Mock observations**  
-I generate synthetic datasets that mimic real observations, including instrumental effects and selection biases. These allow us to test how well different analysis methods recover the underlying physics.
+A key focus of this work has been connecting simulations to observable quantities. For example, I have generated mock observations to study [how SIDM affects inferred cluster shapes in weak lensing analyses](https://arxiv.org/abs/2210.13474), where projection effects and measurement noise make it difficult to robustly distinguish between dark matter models.
 
-**Strong gravitational lensing**  
-Gravitational lensing provides a direct way to detect small concentrations of mass, including dark matter subhaloes. By studying how these structures perturb lensed images, we can probe dark matter on very small scales.
+Although I no longer run large SIDM simulations myself, I remain closely involved in this area. In particular, I have helped supervise new simulation efforts as part of the [Darkium](https://www.darkium.org) collaboration, using the publicly released [OpenGadget-3 code](https://arxiv.org/abs/2603.10107). This code addresses many of the numerical challenges involved in modelling processes such as core collapse, which are central to the SIDM models of most current interest.
 
-**Testing assumptions**  
-A key part of the work is understanding how modelling choices affect the conclusions. For example, neglecting light from a faint satellite galaxy can lead to inferred dark matter distributions that appear more compact than they really are.
+I am also supervising the development of a suite of simulations of merging galaxy clusters—selected from large cosmological simulations—which will be used to extract constraints on the nature of dark matter from recent [JWST observations of the Bullet Cluster](https://science.nasa.gov/asset/webb/bullet-cluster-nircam-image/).
+
 
 ---
 
-## Example: SDSS J0946+1006
+## Strong lensing tests of the nature of dark matter
 
-One well-studied lens system, **SDSS J0946+1006**, has been interpreted as containing a very dense dark matter subhalo.
+The cleanest tests of dark matter physics come from systems that are dominated by dark matter itself. The challenge is that such systems are, by definition, difficult to observe directly. However, we can detect them through their gravitational effects. Two of the main approaches currently being explored are stellar streams and strong gravitational lensing (see my [lensing page](/research/strongLensing) for more details).
 
-In recent work, we explored an alternative explanation: that the perturber may host a faint galaxy. When this possibility is included, the data can be explained without requiring an unusually dense dark matter structure.
+Strong lensing is particularly powerful because it can probe small-scale structure directly, through the perturbations caused by dark matter subhaloes. There have been a number of intriguing results on galaxy scales—from both optical imaging and ([recently](https://www.nature.com/articles/s41550-025-02746-w)) from radio interferometry—as well as hints of unusual behaviour in cluster-scale systems.
 
-This does not rule out high-density subhaloes, but it shows that the interpretation depends sensitively on how the system is modelled.
+At the same time, these measurements are highly sensitive to modelling assumptions. A useful example is [SDSS J0946+1006](https://en.wikipedia.org/wiki/SDSSJ0946%2B1006), which has been interpreted as hosting an unusually dense dark matter subhalo. In [recent work](/publications/jackpotluminousperturber/), we showed that the data can also be explained if the perturber hosts a faint galaxy, without requiring extreme dark matter properties. This highlights how easily astrophysical effects can masquerade as new physics.
 
-- He et al. (2025), *ApJL*:  
-  *Not So Dark, Not So Dense: An Alternative Explanation for the Lensing Subhalo in SDSS J0946+1006*  
-  [Journal](https://doi.org/10.3847/2041-8213/ae072d) · [ADS](https://ui.adsabs.harvard.edu/abs/2025ApJ...991L..53H/abstract)
-
----
-
-## Looking ahead
-
-New data will make it possible to test these ideas more directly.
-
-- **JWST** can provide high-resolution, multi-wavelength imaging to separate lensed sources from faint satellite galaxies  
-- **Roman Space Telescope** will discover large samples of strong lenses, enabling statistical studies of dark matter substructure  
-
-A major goal is to ensure that the methods used to interpret these data are robust, so that any differences from CDM can be confidently attributed to the underlying physics.
-
----
-
-## Related work
-
-This page focuses on SIDM, but closely related projects include:
-
-- [Strong lensing and substructure](../strongLensing/)
-- [Roman Galaxy Redshift Survey](../roman-GRS/)
+A key goal going forward is to test these analyses using realistic mock data generated from both CDM and SIDM simulations, and to understand how robust the inferred constraints really are.
