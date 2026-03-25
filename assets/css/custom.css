@@ -1,3 +1,16 @@
+figure.wrapped-figure {
+  width: min(300px, 42%);
+}
+
+figure.wrapped-figure img {
+  width: 100%;
+}
+
+figure.wrapped-figure figcaption {
+  font-size: 0.8em;
+  color: #666;
+}
+
 @media (min-width: 1024px) {
   .resume-biography .prose {
     max-width: 72ch;
@@ -22,5 +35,22 @@
 
   .outreach-page-content {
     max-width: 60rem;
+  }
+}
+
+@media (min-width: 768px) {
+    figure.wrapped-figure-right {
+      float: right;
+      width: min(400px, 50%);
+      margin: 0 0 10px 20px;
+    }
+  }
+
+@media (max-width: 767px) {
+  figure.wrapped-figure {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0;
   }
 }

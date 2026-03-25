@@ -42,9 +42,9 @@ This system illustrates how sensitive lensing inferences can be to seemingly sma
 ## Cluster-scale strong lensing
 
 
-<figure style="float:right; width:300px; margin:0 0 10px 20px;">
-  <img src="/images/Abell370.jpg" alt="Abell 370 strong lensing" style="width:100%;">
-  <figcaption style="font-size:0.8em; color:#666;">
+<figure class="wrapped-figure wrapped-figure-right">
+  <img src="/images/Abell370.jpg" alt="Abell 370 strong lensing">
+  <figcaption>
     Strong lensing galaxy cluster Abell 370. Image credit: NASA, ESA, and J. Lotz and the HFF Team (STScI)
   </figcaption>
 </figure>
