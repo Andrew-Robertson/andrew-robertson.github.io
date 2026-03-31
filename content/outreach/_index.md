@@ -6,8 +6,19 @@ My outreach is mostly centred around public talks and explaining how we use simu
 
 ## Watch / Listen
 
-- **Carnegie Astronomy Lecture at The Huntington** *(coming soon)*  
-  A public lecture on dark matter, the Bullet Cluster, and how we can use merging galaxy clusters to constrain the nature of dark matter. The event information is [here](https://carnegiescience.edu/shining-light-dark-matter). I’ll link the recording here once available.
+- **Carnegie Astronomy Lecture at The Huntington** (2026)  
+  A public lecture on dark matter, and how we can use merging galaxy clusters to try and work out what it is. The event information is [here](https://carnegiescience.edu/shining-light-dark-matter).  
+  You can watch the full recording below:
+
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/aROIED3Ci-k" 
+            title="Carnegie Astronomy Lecture" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+  </div>
 
 - **The Absurd Search For Dark Matter** (Veritasium, 2022)  
   I am a big Veritsaium fan, so was excited that my Bullet Cluster simulations made an appearance! 
